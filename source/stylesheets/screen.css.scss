@@ -23,7 +23,11 @@ under the License.
 ////////////////////////////////////////////////////////////////////////////////
 // GENERAL STUFF
 ////////////////////////////////////////////////////////////////////////////////
-
+@import url("https://fonts.googleapis.com/css?family=Roboto");html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
 html, body {
   color: $main-text;
   padding: 0;
@@ -59,7 +63,7 @@ html, body {
   bottom: 0;
   width: $nav-width;
   background-color: $nav-bg;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
 
   // language selector for mobile devices
@@ -75,7 +79,8 @@ html, body {
   .logo {
     display: block;
     max-width: 100%;
-    margin-bottom: $logo-margin;
+    margin: 5% auto;
+    //margin-bottom: $logo-margin;
   }
 
   &>.search {
