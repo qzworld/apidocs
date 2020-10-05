@@ -2,14 +2,14 @@
 title: Skyee API Reference
 
 language_tabs: # must be one of https://git.io/vQNgJ
-  - Sample
   - csharp: C#
 toc_footers:
 
 
 includes:
   - accom
-  - errors
+  - security
+  
 
 search: true
 
